@@ -1,0 +1,38 @@
+# Gradle and build output
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local machine configuration (SDK path)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Signing material and service config
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# Logs and profiling
+*.log
+*.hprof
+
+# Editors and OS
+.vscode/
+.fleet/
+.DS_Store
